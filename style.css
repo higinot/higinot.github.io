@@ -1,5 +1,16 @@
 <style>
-    h1 {
+
+    nome_completo{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
         color: blue;
+    }
+
+    p {
+        color: blue;
+    }
+
+    .Hardskills{
+        font-size: 24px;
     }
 </style>
