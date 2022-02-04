@@ -1,16 +1,75 @@
-<style>
 
-    nome_completo{
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+nome_completo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
-        color: blue;
-    }
+    color: blue;
+}
 
-    p {
-        color: blue;
-    }
+* {
+    box-sizing: border-box;
+}
 
-    .Hardskills{
-        font-size: 24px;
-    }
-</style>
+p {
+    color: blue;
+}
+
+.Hardskills{
+    font-size: 24px;
+}
+
+.perfil {
+    height: 6cm;
+    width: 6cm;
+    border-radius: 50%;
+    
+}
+
+.fotoperfil {
+
+    border: 1px solid black;
+    height: 400px;
+    width: 300px;
+    top: 193px;
+    position: absolute
+
+
+
+
+
+}
+
+.nome , .menu, .Hardskills {
+    border: 1px solid black;
+    padding: auto;
+    text-align: center;
+    float: none;
+    width: 1000px;
+    align-items: center;
+    position: relative;
+    
+
+
+
+
+}
+
+
+.description {
+
+    width: 700px;
+    height: 400px;
+    border: 1px solid black;
+    position: relative;
+    left: 300px;
+    padding: 20px
+
+    
+    
+}
+
+body {
+    background-color: aliceblue;
+    padding: 4%;
+    border: 1px solid black;
+}
+
