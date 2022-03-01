@@ -1,75 +1,91 @@
-
-nome_completo{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-    color: blue;
-}
-
 * {
-    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-p {
-    color: blue;
-}
-
-.Hardskills{
-    font-size: 24px;
-}
-
-.perfil {
-    height: 6cm;
-    width: 6cm;
-    border-radius: 50%;
-    
-}
-
-.fotoperfil {
-
-    border: 1px solid black;
-    height: 400px;
-    width: 300px;
-    top: 193px;
-    position: absolute
-
-
-
-
-
-}
-
-.nome , .menu, .Hardskills {
-    border: 1px solid black;
-    padding: auto;
-    text-align: center;
-    float: none;
-    width: 1000px;
+.nav {
+    background-color: #020514;
+    display: flex;
     align-items: center;
-    position: relative;
-    
+    font-family: Ubuntu,sans-serif;
+    justify-content: space-around;
+}
 
-
-
+.text-nav {
+    color: aliceblue;
+    font-size: 25px;
+    justify-content: space-around;
+    height: 8vh;
 
 }
 
-
-.description {
-
-    width: 700px;
-    height: 400px;
-    border: 1px solid black;
-    position: relative;
-    left: 300px;
-    padding: 20px
-
-    
-    
+.text-container {
+    color:aliceblue;
+    font-size: 20px;
+    font-family: ubuntu;
+    letter-spacing: 1px;
 }
 
-body {
-    background-color: aliceblue;
-    padding: 4%;
-    border: 1px solid black;
+.nav-list {
+    display:flex;
+    list-style: none;   
+        
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+main {
+    background-image:url(daniel-leone-v7daTKlZzaw-unsplash.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 92vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+}
+
+.section-perfil {
+    display: flex;
+    width: 75%;
+    box-shadow: 10px 5px  white;
+    background-color: #020514;
+    padding: 1%;
+    border-radius: 20px;
+}
+
+.section-description {
+    width: 60%;
+    position: relative;
+    left: 10%;
+}
+
+.div-imagem-perfil {
+    width: 20%;
+    height: 80%;
+    position: relative;
+    left: 5%;
+    top: 10%;
+    display: flex;
+}
+
+.image-perfil {
+    width: 80%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+ul {
+    list-style: none;
+}
+
+.box {
+    width: 50%;
 }
 
