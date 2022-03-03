@@ -38,7 +38,7 @@
 }
 
 main {
-    background-image:url(daniel-leone-v7daTKlZzaw-unsplash.jpg);
+    background-image:url(/backgrounds/daniel-leone-v7daTKlZzaw-unsplash.jpg);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -58,6 +58,7 @@ main {
     background-color: #020514;
     padding: 1%;
     border-radius: 20px;
+    max-height: 60vh;
 }
 
 .section-description {
