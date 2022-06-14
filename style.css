@@ -294,6 +294,18 @@ IDS de PROJETO
     background-image: url("https://static.vecteezy.com/ti/vetor-gratis/p3/107544-illustrartion-de-texto-de-trivia-vetor.jpg");
 }
 
+.links {
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+.links a  {
+  text-decoration: none;
+  color: inherit;
+}
+
 .card-text {
   width: 40%;
   font-family: sans-serif;
